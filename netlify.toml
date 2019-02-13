@@ -41,4 +41,4 @@
     X-Content-Type-Options = "nosniff"
 
     Link = '''
-    </profile.jpg>; rel=preload; as=image'''
+    </img/profile.jpg>; rel=preload; as=image'''
