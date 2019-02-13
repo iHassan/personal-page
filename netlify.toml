@@ -32,10 +32,13 @@
   for = "*.jpg" # jpg files too
   [headers.values]
     Cache-Control = "public, max-age=31536000"
-    Content-Type = "image/jpeg; charset=utf-8"
+    Content-Type = "image/jpeg"
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
+
+    Link = '''
+    </profile.jpg>; rel=preload; as=image'''
