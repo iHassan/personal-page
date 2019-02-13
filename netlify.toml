@@ -32,6 +32,7 @@
   for = "*.jpg" # jpg files too
   [headers.values]
     Cache-Control = "public, max-age=31536000"
+    Content-Type = "image/jpeg; charset=utf-8"
 [[headers]]
   for = "/*"
   [headers.values]
